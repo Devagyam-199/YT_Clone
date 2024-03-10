@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@media (max-width: 850px){
+    .vidgrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 23px;
+    }
+}
+
+@media (min-width: 851px) and (max-width:1149px) {
+    .vidgrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 23px;
+    }
+}
+
+@media (min-width:1150px){
+    .vidgrid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 23px;
+    }
+    
+}
+
+.vidlink{
+    text-decoration: none;
+}
+
+.vidcontain{
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.vidimg{
+    width: 100%;
+    margin-bottom: 7px;
+    border: none;
+    border-radius: 9px ;
+    position: relative;
+}
+
+.vidtime{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0,0.84);
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    padding: 3px 7px;
+    position: absolute;
+    bottom: 8px;
+    right: 6px;
+}
+
+.thumbnails{
+    width: 100%;
+    border-radius: 9px;
+}
+
+.vidfoot{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    width: 100%;
+}
+
+.propic{
+    width: 35px;
+}
+
+.ppic{
+    width: 100%;
+    border-radius: 50% ;
+}
+
+.vidtitle{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 22px;
+    margin-bottom: 7px;
+}
+
+.vidstats{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(96, 96, 96);
+}
+
+.vidauthor{
+    font-size: 14px;
+    font-weight: 500 ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(129, 129, 129);
+    margin-bottom: 1px;
+}
+
+.vid-link{
+    text-decoration: none;
+    color: black;
+}
